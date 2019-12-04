@@ -12,7 +12,7 @@ with open("README.md", "r") as fh:
     LONG_DESCRIPTION = fh.read()
     setuptools.setup(
     name="DSU3S1M2Assignment",
-    version = "0.0.1",
+    version = "0.0.3",
     author = "DNason1999",
     description = "a package for DS-UNIT-3-SPRINT-1-MODULE-2",
     long_description = LONG_DESCRIPTION,
