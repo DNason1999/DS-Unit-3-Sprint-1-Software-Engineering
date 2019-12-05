@@ -5,7 +5,7 @@ class DateSplitter:
     def __init__(self):
         pass
 
-    def split_dates(self, input_date):
+    def split_dates(self=self, input_date):
         """
         Given a string in the format of "MM/DD/YYYY", will split into three compnents
 
