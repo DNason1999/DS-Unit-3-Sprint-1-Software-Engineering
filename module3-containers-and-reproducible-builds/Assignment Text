@@ -1,0 +1,27 @@
+Collecting lambdata-DNason1999
+  Downloading https://test-files.pythonhosted.org/packages/52/39/9cad45a724b1762b115f6d6f87c7041b2d1f555b76522a0ba0e983fa2f40/lambdata_DNason1999-0.1.2-py3-none-any.whl
+Requirement already satisfied: numpy in /usr/local/lib/python3.7/dist-packages (fromlambdata-DNason1999) (1.17.4)
+Requirement already satisfied: pandas in /usr/local/lib/python3.7/dist-packages (from lambdata-DNason1999) (0.25.3)
+Requirement already satisfied: pytz>=2017.2 in /usr/local/lib/python3.7/dist-packages (from pandas->lambdata-DNason1999) (2019.3)
+Requirement already satisfied: python-dateutil>=2.6.1 in /usr/local/lib/python3.7/dist-packages (from pandas->lambdata-DNason1999) (2.8.1)
+Requirement already satisfied: six>=1.5 in /usr/lib/python3/dist-packages (from python-dateutil>=2.6.1->pandas->lambdata-DNason1999) (1.12.0)
+Installing collected packages: lambdata-DNason1999
+Successfully installed lambdata-DNason1999-0.1.2
+Success!
+docker run -it lambdata /bin/bash
+Removing intermediate container 29ef8952ccaa
+ ---> a5024778d22e
+Successfully built a5024778d22e
+Successfully tagged lambdata:latest
+[node1] (local) root@192.168.0.8 ~/containers/lambdata
+$ docker run -it lambdata /bin/bash
+root@83f6cee68ec4:/# import utils
+bash: import: command not found
+root@83f6cee68ec4:/# python3
+Python 3.7.3 (default, Apr  3 2019, 05:39:12)
+[GCC 8.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import utils
+>>> utils.split_dates('02/22/2019')
+['02', '22', '2019']
+>>>
