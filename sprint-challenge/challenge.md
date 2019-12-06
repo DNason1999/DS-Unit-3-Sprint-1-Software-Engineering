@@ -268,6 +268,23 @@ career here, you'll have to answer the following:
 
 Answer both of these questions (baseline ~5 sentences) here in text.
 
+### Q1:
+An important part of performing code reviews for others is to pay attention to
+their particular use of different functions and their methods of problem
+solving. They may be using a method that is inefficient or hard to follow, and
+allows for oneself to share different ideas for solving that problem which
+could be more efficient and easier to read. For others performing review on 
+my own code, I find it helpful if they ask questions on parts they don't
+understand or where it is hard to follow, as if I can explain it to them, it
+could help me realize my error or to help them understand a new way of coding.
+
+### Q2:
+Containers are useful to maintain a DRY, Don't Repeat Yourself, coding enviornment.
+This increases efficiency as we aren't copy/pasting code which can take some time,
+and if any improvments are made to the containers, the positive effect is automatically
+applied to any project using that container, allowing constant use of the most
+up-to-date and efficient packages.
+
 ### Part 8 - Turn it in!
 
 Provide all the files you wrote (`acme.py`, `acme_report.py`, and
