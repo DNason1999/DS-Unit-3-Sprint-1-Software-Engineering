@@ -279,12 +279,11 @@ understand or where it is hard to follow, as if I can explain it to them, it
 could help me realize my error or to help them understand a new way of coding.
 
 ### Q2:
-Containers are useful to maintain a DRY, Don't Repeat Yourself, coding enviornment.
-This increases efficiency as we aren't copy/pasting code which can take some time,
-and if any improvments are made to the containers, the positive effect is automatically
-applied to any project using that container, allowing constant use of the most
-up-to-date and efficient packages.
-
+Containers are useful to maintain a consistent development enviornment. For
+example, moving from a developers laptop to a company desktop computer
+may result in a different running enviornment. With a container, the program
+will be hosted on either of the platforms inside the same consistent container.
+The container environment contains an application and all dependencies for it to run.
 ### Part 8 - Turn it in!
 
 Provide all the files you wrote (`acme.py`, `acme_report.py`, and
