@@ -51,3 +51,6 @@ def split_dates(input_date):
     returns a list of [MM, DD, YYYY]
     """
     return input_date.split(sep='/')
+
+def make_giraffe(x):
+    return 'Giraffed'
